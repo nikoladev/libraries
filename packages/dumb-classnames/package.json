@@ -1,5 +1,5 @@
 {
-  "name": "@nikolaa/dumb-classnames",
+  "name": "dumb-classnames",
   "version": "1.0.0",
   "description": "A simpler version of classnames that only accepts arrays",
   "keywords": [
