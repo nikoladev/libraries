@@ -1,4 +1,4 @@
-const dumbClassNames = require('../src/index.js')
+const dumbClassNames = require('../src/index.ts')
 
 describe('dumbClassNames', () => {
   test('joins strings with spaces', () => {

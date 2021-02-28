@@ -1,4 +1,4 @@
-module.exports = function dumbClassNames (classNames = []) {
+module.exports = function dumbClassNames (classNames:Array<string | boolean> = []): string {
   if (!Array.isArray(classNames)) {
     classNames = [ classNames ]
   }
