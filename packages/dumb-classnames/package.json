@@ -9,11 +9,15 @@
   ],
   "author": "Nikola Pilipović <https://github.com/nikoladev>",
   "license": "ISC",
-  "source": "index.js",
+  "source": "./src/index.js",
   "main": "./dist/dumb-classnames.js",
   "exports": "./dist/dumb-classnames.modern.js",
   "module": "./dist/dumb-classnames.module.js",
   "unpkg": "./dist/dumb-classnames.umd.js",
+  "files": [
+    "dist",
+    "src"
+  ],
   "dependencies": {},
   "devDependencies": {
     "jest": "^26.6.3",
@@ -23,6 +27,7 @@
     "build": "microbundle",
     "dev": "microbundle watch",
     "test": "jest",
-    "test-watch": "jest --watch"
+    "test-watch": "jest --watch",
+    "release": "pnpm run test && pnpm run build && npm publish"
   }
 }
