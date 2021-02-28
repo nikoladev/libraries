@@ -5,7 +5,7 @@ A simpler version of [classnames](https://github.com/JedWatson/classnames/) that
 ## Installation
 
 ```
-<pnpm|npm|yarn> add @nikolaa/dumb-classnames
+<pnpm|npm|yarn> add dumb-classnames
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ A simpler version of [classnames](https://github.com/JedWatson/classnames/) that
 ### Only accepts arrays
 
 ```js
-import dumbClassNames from '@nikolaa/dumb-classnames'
+import dumbClassNames from 'dumb-classnames'
 
 console.log(dumbClassNames([
   'word',
@@ -25,7 +25,7 @@ console.log(dumbClassNames([
 ### Has conditional input
 
 ```js
-import dumbClassNames from '@nikolaa/dumb-classnames'
+import dumbClassNames from 'dumb-classnames'
 
 console.log(dumbClassNames([
   true && 'in-output',
@@ -36,7 +36,7 @@ console.log(dumbClassNames([
 ### Only processes the first parameter
 
 ```js
-import dumbClassNames from '@nikolaa/dumb-classnames'
+import dumbClassNames from 'dumb-classnames'
 
 console.log(dumbClassNames([
   'satu',
@@ -47,7 +47,7 @@ console.log(dumbClassNames([
 ]) // => "satu dua"
 ```
 
-See `index.test.js` for more use cases.
+See `test/index.test.js` for more use cases.
 
 ## Browser support
 
