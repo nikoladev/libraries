@@ -9,6 +9,7 @@
   ],
   "author": "Nikola Pilipović <https://github.com/nikoladev>",
   "license": "ISC",
+  "homepage": "https://github.com/nikoladev/libraries/tree/main/packages/dumb-classnames",
   "source": "./src/index.js",
   "main": "./dist/dumb-classnames.js",
   "exports": "./dist/dumb-classnames.modern.js",
