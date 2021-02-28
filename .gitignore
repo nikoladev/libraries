@@ -8,6 +8,8 @@ npm-debug.log*
 _node_modules
 .pnp.cjs
 
+dist
+
 # Visual Studio Code configs
 .vscode/
 
