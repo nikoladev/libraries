@@ -27,7 +27,8 @@
     "typescript": "^4.2.2"
   },
   "scripts": {
-    "build": "microbundle",
+    "rm-dist": "node ./scripts/rm-dist.js",
+    "build": "pnpm run rm-dist && microbundle",
     "dev": "microbundle watch",
     "test": "jest",
     "test-watch": "jest --watch",
