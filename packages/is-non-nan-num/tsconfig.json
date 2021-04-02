@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "strict": true,
+    "module": "ESNext",
+    "target": "ESNext"
+  }
+}
