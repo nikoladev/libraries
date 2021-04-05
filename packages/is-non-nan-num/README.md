@@ -1,6 +1,8 @@
 # Is non-NaN number
 
-Checks whether a value is a number and that it's not `NaN`.
+Widely supported version of `Number.isNaN`. Checks whether a value is a number and that it's not `NaN`.
+
+Also check out [`is-fin-num`][is-fin-num], which is similar but also rejects `Infinity` and `-Infinity`.
 
 ## Installation
 
@@ -35,3 +37,5 @@ See `test/index.test.js` for more use cases.
 | Edge                   | >=12            |
 | Chrome                 | >=1             |
 | Internet Explorer (IE) | >=3             |
+
+[is-fin-num]: ../is-fin-num

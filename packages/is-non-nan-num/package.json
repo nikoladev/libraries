@@ -1,7 +1,7 @@
 {
   "name": "is-non-nan-num",
-  "version": "1.0.0",
-  "description": "Checks whether a value is a number that is not NaN",
+  "version": "1.0.1",
+  "description": "Widely supported version of Number.isNaN. Checks whether a value is a number and that it's not NaN.",
   "keywords": [
     "number",
     "NaN",
