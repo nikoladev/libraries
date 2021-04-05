@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "update-all": "pnpm update --recursive"
+  }
+}
